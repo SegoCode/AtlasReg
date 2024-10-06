@@ -4,7 +4,7 @@ AtlasReg is a repo for automate the generation of Windows Registry files (.reg) 
 
 ## Features
 
-- The tool integrates easily into a GitHub Actions workflow, enabling automatic generation and updating of .reg files.
+- Integrates into a GitHub Actions workflow, enabling automatic generation and updating of reg files.
 
 - Maintains the original playbook directory for easy comparison.
 
