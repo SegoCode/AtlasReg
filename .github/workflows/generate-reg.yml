@@ -48,7 +48,8 @@ jobs:
         run: |
           cd AtlasReg
           git add playbook
-          git commit -m "Update registry files"
-          git push origin HEAD:main
+          git commit -m "Update registry files" || echo "No changes to commit"
+          gh repo set-default SegoCode/AtlasReg
+          gh repo push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
