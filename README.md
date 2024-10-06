@@ -1,6 +1,6 @@
 # AtlasReg
 
-AtlasReg is a repo for automate the generation of Windows Registry files (.reg) from YAML format configurations from https://ameliorated.io/ in this case **converts atlasOS playbook to standalone reg files**.
+AtlasReg is a repo for automate the generation of Windows Registry files (.reg) from YAML format configurations from https://ameliorated.io/ in this case **converts [AtlasOS](https://github.com/atlas-os/atlas) playbook to standalone reg files**.
 
 ## Features
 
