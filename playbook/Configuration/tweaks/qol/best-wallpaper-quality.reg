@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables wallpaper compression so that your wallpaper is always in its full quality
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"JPEGImportQuality"=dword:00000064
+

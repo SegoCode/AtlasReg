@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Disables searching drives or using NTFS file system tracking for shortcuts that have invalid/non-existant paths for responsiveness
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoResolveSearch"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoResolveTrack"=dword:00000001
+

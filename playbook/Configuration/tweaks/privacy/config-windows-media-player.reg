@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Configures Windows Media Player for the optimal privacy, security and usability. As a note, WMP is old, and you probably shouldn't use it.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WMDRM]
+"DisableOnline"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"AcceptedPrivacyStatement"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"UsageTracking"=dword:00000000
+

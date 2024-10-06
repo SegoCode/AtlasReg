@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; Adds a file assocation for .pow files, so you can simply double click on it and import it
+
+[HKEY_CLASSES_ROOT\powerscheme\DefaultIcon]
+""="%windir%\System32\powercpl.dll,1"
+
+[HKEY_CLASSES_ROOT\powerscheme\Shell\open\command]
+""="powercfg /import "%1""
+
+[HKEY_CLASSES_ROOT\.pow]
+""="powerscheme"
+
+[HKEY_CLASSES_ROOT\.pow]
+"FriendlyTypeName"="Power Scheme"
+

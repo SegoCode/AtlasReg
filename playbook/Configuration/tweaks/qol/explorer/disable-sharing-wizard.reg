@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables the 'Sharing Wizard' option in File Explorer for QoL
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"SharingWizardOn"=dword:00000000
+

@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables diagnostic tracing (system activities, events or errors) for privacy reasons
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Diagnostics\Performance]
+"DisableDiagnosticTracing"=dword:00000001
+

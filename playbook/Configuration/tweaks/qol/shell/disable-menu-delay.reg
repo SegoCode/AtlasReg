@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Makes hovering over sub-menus in menus instant, instead of having a slight delay on hover
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+

@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Removes 'Troubleshooting Compatibility' from context menu
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{1d27f844-3a1f-4410-85ac-14651078412d}"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{1d27f844-3a1f-4410-85ac-14651078412d}"=""
+

@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Disables Settings tips for QoL, as most of the time, they only get in the way
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Settings\AllowOnlineTips]
+"value"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"AllowOnlineTips"=dword:00000000
+

@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Fixes context menu items missing when more than 15 files are selected, this sets it to 100 items instead of 15, where some context menu items disappear
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"MultipleInvokePromptMinimum"=dword:00000064
+
