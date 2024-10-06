@@ -47,9 +47,10 @@ jobs:
       - name: Commit and Push Changes
         run: |
           cd AtlasReg
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add playbook
           git commit -m "Update registry files" || echo "No changes to commit"
-          gh repo set-default SegoCode/AtlasReg
-          gh repo push origin main
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/SegoCode/AtlasReg.git HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
