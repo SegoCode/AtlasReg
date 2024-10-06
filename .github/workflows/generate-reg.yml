@@ -1,0 +1,43 @@
+name: Generate Reg
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Current Repository
+        uses: actions/checkout@v3
+
+      - name: Checkout Atlas-OS/Atlas Repository
+        uses: actions/checkout@v3
+        with:
+          repository: Atlas-OS/Atlas
+          path: Atlas
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: |
+          cd AtlasReg/code
+          npm ci
+
+      - name: Run reg.js Script
+        run: |
+          cd AtlasReg/code
+          node reg.js ../../Atlas/src/playbook ../playbook
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add AtlasReg/playbook
+          git commit -m "Update registry files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
