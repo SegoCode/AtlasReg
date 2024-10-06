@@ -1,4 +1,4 @@
-name: Generate Registry Files
+name: Generate registry files
 
 on:
   workflow_dispatch:
@@ -47,8 +47,6 @@ jobs:
       - name: Commit and Push Changes
         run: |
           cd AtlasReg
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add playbook
           git commit -m "Update registry files" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/SegoCode/AtlasReg.git HEAD:main
