@@ -8,13 +8,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone AtlasReg Repository
+      - name: Set up GitHub CLI
         run: |
-          git clone https://github.com/SegoCode/AtlasReg.git
+          sudo apt-get install -y gh
 
-      - name: Clone Atlas Repository
+      - name: Authenticate with GitHub CLI
         run: |
-          git clone https://github.com/Atlas-OS/Atlas.git
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+
+      - name: Clone Atlas-OS/Atlas Repository
+        run: |
+          gh repo clone Atlas-OS/Atlas Atlas
+
+      - name: Clone SegoCode/AtlasReg Repository
+        run: |
+          gh repo clone SegoCode/AtlasReg AtlasReg
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -38,7 +46,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add playbook
           git commit -m "Update registry files"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/SegoCode/AtlasReg.git
           git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
