@@ -8,6 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Setup git
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
       - name: Set up GitHub CLI
         run: |
           sudo apt-get install -y gh
@@ -42,8 +47,6 @@ jobs:
       - name: Commit and Push Changes
         run: |
           cd AtlasReg
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add playbook
           git commit -m "Update registry files"
           git push origin HEAD:main
