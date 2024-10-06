@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Hides disabled and disconnected devices in the sounds panel (mmsys.cpl) for QoL
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Multimedia\Audio\DeviceCpl]
+"ShowDisconnectedDevices"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Multimedia\Audio\DeviceCpl]
+"ShowHiddenDevices"=dword:00000000
+

@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; Adds PowerShell script (.ps1) to 'New' context menu
+
+[HKEY_CLASSES_ROOT\.ps1]
+""="Microsoft.PowerShellScript.1"
+
+[HKEY_CLASSES_ROOT\.ps1\ShellNew]
+"NullFile"=""
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1]
+""="Windows PowerShell Script"
+
+[HKEY_CLASSES_ROOT\Microsoft.PowerShellScript.1]
+"FriendlyTypeName"="Windows PowerShell Script"
+

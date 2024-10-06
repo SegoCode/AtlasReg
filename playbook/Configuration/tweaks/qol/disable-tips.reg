@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables tips for QoL and privacy
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableSoftLanding"=dword:00000001
+

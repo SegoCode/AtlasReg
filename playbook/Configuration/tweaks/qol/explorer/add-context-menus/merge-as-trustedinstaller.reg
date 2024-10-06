@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Adds 'Merge as TrustedInstaller' to context menu for registry files
+
+[HKEY_CLASSES_ROOT\regfile\Shell\RunAs]
+""="Merge As TrustedInstaller"
+
+[HKEY_CLASSES_ROOT\regfile\Shell\RunAs]
+"HasLUAShield"="1"
+
+[HKEY_CLASSES_ROOT\regfile\Shell\RunAs\Command]
+""="cmd /c "%windir%\AtlasModules\Scripts\RunAsTI.cmd" "%1""
+

@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Adds 'End task' as a right-click option on taskbar for QoL
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDeveloperSettings]
+"TaskbarEndTask"=dword:00000001
+

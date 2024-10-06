@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables check boxes in File Explorer to select items for QoL
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"AutoCheckSelect"=dword:00000000
+

@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Prevents Windows from automatically tracking applications you use the most for improved privacy
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_TrackProgs"=dword:00000000
+

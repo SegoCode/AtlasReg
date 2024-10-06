@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Enables verbose status messages so users can have more insight on exactly what's happening on startup, shutdown, logon, and logoff
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"verbosestatus"=dword:00000001
+

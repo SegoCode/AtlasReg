@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Turns off KMS client online AVS validation, which prevents from sending data to Microsoft regardless of its activation state, for privacy
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\CurrentVersion\Software Protection Platform]
+"NoGenTicket"=dword:00000001
+

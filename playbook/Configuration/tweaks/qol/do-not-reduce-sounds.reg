@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Makes it so that Windows does not reduce sounds in a call for QoL, as people generally wouldn't want this behavior
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Multimedia\Audio]
+"UserDuckingPreference"=dword:00000003
+
