@@ -10,7 +10,7 @@ AtlasReg is a repo for automate the generation of Windows Registry files (.reg) 
 
 ## Quick Start & Information
 
-Here you have the .reg available https://github.com/SegoCode/AtlasReg/tree/main/playbook/Configuration/tweaks
+Here you have the .reg available https://github.com/SegoCode/AtlasReg/tree/main/playbook
 
 ---
 <p align="center"><a href="https://github.com/SegoCode/AtlasReg/graphs/contributors">
