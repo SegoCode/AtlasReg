@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables automatic updates for apps in Store so that the user has more control
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsStore\WindowsUpdate]
-"AutoDownload"=dword:00000002
-

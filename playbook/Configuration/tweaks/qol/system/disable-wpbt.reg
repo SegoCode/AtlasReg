@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables WPBT with an undocumented Registry value, which is an ACPI table in your firmware to execute a program each boot of Windows such as unwanted OEM bloatware.
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
-"DisableWpbtExecution"=dword:00000001
-

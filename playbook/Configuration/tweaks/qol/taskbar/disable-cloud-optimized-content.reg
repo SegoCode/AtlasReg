@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables cloud optimized content in the taskbar for QoL, which pins items dependant on things like having linked phone or Xbox Live - seems to break Windows Spotlight
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
-"DisableCloudOptimizedContent"=dword:00000001
-

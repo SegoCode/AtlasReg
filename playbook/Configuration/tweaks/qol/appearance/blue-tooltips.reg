@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Changes the tooltip color to blue
-
-[HKEY_CURRENT_USER\Control Panel\Colors]
-"InfoWindow"="246 253 255"
-

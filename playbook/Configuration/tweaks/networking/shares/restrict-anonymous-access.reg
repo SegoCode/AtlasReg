@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Restricts anonymous access to named pipes and shares to prevent unauthorized system access
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanManServer\Parameters]
-"RestrictNullSessAccess"=dword:00000001
-

@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Configure the 'Automatic Maintenance' feature in Windows
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Task Scheduler\Maintenance]
-"WakeUp"=dword:00000000
-

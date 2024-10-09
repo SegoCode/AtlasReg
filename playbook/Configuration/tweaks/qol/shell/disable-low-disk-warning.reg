@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; DIsables low disk space checks, meaning that there will not be a low disk space warning for QoL
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"NoLowDiskSpaceChecks"=dword:00000001
-

@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables the 'Show Desktop' peek feature on the taskbar, as most of the time people accidently trigger it, so it is disabled here for QoL
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"DisablePreviewDesktop"=dword:00000001
-

@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables auto-updates of speech data, as it is not commonly used, and it is a potential privacy concern or an overall annoyance
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Speech]
-"AllowSpeechModelUpdate"=dword:00000000
-

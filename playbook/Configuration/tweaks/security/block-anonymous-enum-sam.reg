@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Blocks the anonymous enumeration of SAM accounts to prevent the ability to list the potential points of attack to the system
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
-"RestrictAnonymousSAM"=dword:00000001
-

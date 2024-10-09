@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Hides 'Meet Now' on the taskbar for QoL and privacy (as it is an online feature)
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"HideSCAMeetNow"=dword:00000001
-

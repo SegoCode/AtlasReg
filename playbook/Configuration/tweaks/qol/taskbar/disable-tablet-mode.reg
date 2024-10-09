@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Makes Windows never use tablet mode for QoL
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell]
-"SignInMode"=dword:00000001
-

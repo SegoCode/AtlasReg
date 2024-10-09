@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Respects current power mode for indexing to prevent battery drainage
-
-[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows Search\Gather\Windows\SystemIndex]
-"RespectPowerModes"=dword:00000001
-

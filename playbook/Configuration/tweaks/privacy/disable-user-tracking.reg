@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables the most frequently used applications in the start menu for privacy
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"NoInstrumentation"=dword:00000001
-

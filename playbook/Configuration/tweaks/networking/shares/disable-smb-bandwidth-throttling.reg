@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables SMB bandwidth throttling for improved performance
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters]
-"DisableBandwidthThrottling"=dword:00000001
-

@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disables the Windows 11 Settings banner (ValueBanner), which normally displays 'advertisements' such as Microsoft 365 on non-Enterprise editions
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsRuntime\ActivatableClassId\ValueBanner.IdealStateFeatureControlProvider]
-"ActivationType"=dword:00000000
-

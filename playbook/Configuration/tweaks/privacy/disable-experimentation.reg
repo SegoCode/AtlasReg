@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disallows Microsoft from using your computer as a test for certain features for privacy and stability
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\System\AllowExperimentation]
-"Value"=dword:00000000
-
