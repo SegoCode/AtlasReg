@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Forcefully closes all applications on restart, shut down, or sign out of Windows, instead of prompting the user to save everything first
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"AutoEndTasks"="1"
+

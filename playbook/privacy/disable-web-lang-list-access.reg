@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables websites accessing the Windows language list for the best privacy, as it is a common fingerprinting technique to identify a user by their languages
+
+[HKEY_CURRENT_USER\Control Panel\International\User Profile]
+"HttpAcceptLanguageOptOut"=dword:00000001
+

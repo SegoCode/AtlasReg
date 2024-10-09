@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Disables touch visual feedback for QoL
+
+[HKEY_CURRENT_USER\Control Panel\Cursors]
+"GestureVisualization"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Cursors]
+"ContactVisualization"=dword:00000000
+

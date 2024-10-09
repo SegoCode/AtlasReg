@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables Aero Shake, which is where you shake a window and all other Windows minimise, as most of the time it is accidently triggered
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DisallowShaking"=dword:00000001
+

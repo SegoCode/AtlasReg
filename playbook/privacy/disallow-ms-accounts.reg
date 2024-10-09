@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; For privacy and QoL, users are prevented from adding Microsoft accounts as user accounts instead of local accounts
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoConnectedUser"=dword:00000001
+

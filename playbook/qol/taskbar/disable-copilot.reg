@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables Microsoft Copilot as it depends on Edge, as well it collecting data and not being used by most users
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsCopilot]
+"TurnOffWindowsCopilot"=dword:00000001
+

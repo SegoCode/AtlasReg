@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Shows more details by default on file transfers such as exact speed of files copying, moving, deleting, etc.
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\OperationStatusManager]
+"EnthusiastMode"=dword:00000001
+

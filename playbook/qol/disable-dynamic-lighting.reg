@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disables Dynamic Lighting by default
+
+[HKEY_CURRENT_USER\Software\Microsoft\Lighting]
+"AmbientLightingEnabled"=dword:00000000
+
