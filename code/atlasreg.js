@@ -129,6 +129,7 @@ function expandRegistryPath(regPath) {
   return pathParts.join('\\');
 }
 
+const args = process.argv.slice(2);
 const initialDir = args[0];
 const outputDir = args[1];
 
