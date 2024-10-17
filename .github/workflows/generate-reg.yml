@@ -42,10 +42,10 @@ jobs:
           cd AtlasReg/code
           npm ci
 
-      - name: Run reg.js Script
+      - name: Run atlasreg.js Script
         run: |
           cd AtlasReg/code
-          node reg.js ../../Atlas/src/playbook/Configuration/tweaks ../playbook
+          node atlasreg.js ../../Atlas/src/playbook/Configuration/tweaks ../playbook
 
       - name: Commit and Push Changes
         run: |
