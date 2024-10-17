@@ -129,5 +129,6 @@ function expandRegistryPath(regPath) {
   return pathParts.join('\\');
 }
 
-
-readFilesRecursively(args[0], args[0], args[1]); //Entry point
+const initialDir = args[0];
+const outputDir = args[1];
+readFilesRecursively(initialDir, initialDir, outputDir); //Entry point
