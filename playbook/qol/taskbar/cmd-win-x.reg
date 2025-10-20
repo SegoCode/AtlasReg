@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-; Shows Command Prompt instead of PowerShell on Windows + X, as it is what most users are familar with
+; Shows Command Prompt instead of PowerShell on Windows + X, as it is what most users are familiar with
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "DontUsePowerShellOnWinX"=dword:00000001
