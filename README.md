@@ -3,8 +3,7 @@
 <p align="center">
   <a href="#about">About</a> •
   <a href="#features">Features</a> •
-  <a href="#quick-start--information">Quick Start & Information</a> •
-  <a href="#download">Download</a>
+  <a href="#quick-start--information">Quick Start & Information</a>
 </p>
 
 ## About
@@ -26,9 +25,6 @@ AtlasReg is a repo for automating the generation of Windows Registry files (`.re
 ## Quick Start & Information
 
 The generated registry files are available in the [`playbook`](https://github.com/SegoCode/AtlasReg/tree/main/playbook) directory.
-
-> [!WARNING]
-> Registry files modify Windows system and user settings. Review each file before importing it and create a backup or restore point when appropriate.
 
 ### Generate Registry Files Locally
 
