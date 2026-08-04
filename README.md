@@ -10,7 +10,7 @@
 [![Top language](https://img.shields.io/github/languages/top/SegoCode/AtlasReg?style=flat-square)](https://github.com/SegoCode/AtlasReg)
 [![Repository size](https://img.shields.io/github/repo-size/SegoCode/AtlasReg?style=flat-square&label=repo%20size)](https://github.com/SegoCode/AtlasReg)
 [![Commit activity per year](https://img.shields.io/github/commit-activity/y/SegoCode/AtlasReg?style=flat-square&label=commits)](https://github.com/SegoCode/AtlasReg/graphs/commit-activity)
-[![License](https://img.shields.io/github/license/SegoCode/AtlasReg?style=flat-square)](https://github.com/SegoCode/AtlasReg/blob/main/LICENSE)
+[![License: MIT License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/SegoCode/AtlasReg/blob/main/LICENSE)
 [![Bitcoin BTC](https://img.shields.io/badge/buy_me_a_coffee-BTC-F7931A?style=flat-square&logo=bitcoin&logoColor=white)](https://github.com/SegoCode/SegoCode/discussions/2)
 
 AtlasReg is a repo for automating the generation of Windows Registry files (`.reg`) from YAML format configurations from [ameliorated.io](https://ameliorated.io/). In this case, it converts the [AtlasOS](https://github.com/Atlas-OS/Atlas) playbook to standalone `.reg` files.
