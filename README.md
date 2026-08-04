@@ -23,7 +23,7 @@ The generated registry files are available in the [`playbook`](https://github.co
 2. Select **Generate registry files**.
 3. Click **Run workflow**.
 
-The workflow downloads the latest AtlasOS playbook
+The workflow downloads the latest AtlasOS playbook, regenerates the registry files and commits changes with `chore: update registry files`.
 
 ---
 <p align="center"><a href="https://github.com/SegoCode/AtlasReg/graphs/contributors">
