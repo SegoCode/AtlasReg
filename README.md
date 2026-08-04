@@ -11,8 +11,6 @@
 [![Top language](https://img.shields.io/github/languages/top/SegoCode/AtlasReg?style=flat-square)](https://github.com/SegoCode/AtlasReg)
 [![Repository size](https://img.shields.io/github/repo-size/SegoCode/AtlasReg?style=flat-square&label=repo%20size)](https://github.com/SegoCode/AtlasReg)
 [![Commit activity per year](https://img.shields.io/github/commit-activity/y/SegoCode/AtlasReg?style=flat-square&label=commits)](https://github.com/SegoCode/AtlasReg/graphs/commit-activity)
-[![Commits since tagged version](https://img.shields.io/github/commits-since/SegoCode/AtlasReg/latest?style=flat-square&label=commits%20since%20tag)](https://github.com/SegoCode/AtlasReg/releases)
-[![GitHub downloads](https://img.shields.io/github/downloads/SegoCode/AtlasReg/total?style=flat-square&label=downloads)](https://github.com/SegoCode/AtlasReg/releases)
 [![License](https://img.shields.io/github/license/SegoCode/AtlasReg?style=flat-square)](https://github.com/SegoCode/AtlasReg/blob/main/LICENSE)
 [![Bitcoin BTC](https://img.shields.io/badge/buy_me_a_coffee-BTC-F7931A?style=flat-square&logo=bitcoin&logoColor=white)](https://github.com/SegoCode/SegoCode/discussions/2)
 
@@ -54,21 +52,7 @@ node atlasreg.js ../../Atlas/src/playbook/Configuration/tweaks ../playbook
 2. Select **Generate registry files**.
 3. Click **Run workflow**.
 
-The workflow downloads the latest AtlasOS playbook, regenerates the files and commits changes using the Conventional Commit message `chore: update registry files`.
-
-### Available Categories
-
-- `debloat`
-- `misc`
-- `networking`
-- `performance`
-- `privacy`
-- `qol`
-- `security`
-
-## Download
-
-Download individual `.reg` files from the [`playbook`](https://github.com/SegoCode/AtlasReg/tree/main/playbook) directory or browse the [latest releases](https://github.com/SegoCode/AtlasReg/releases).
+The workflow downloads the latest AtlasOS playbook
 
 ---
 <p align="center"><a href="https://github.com/SegoCode/AtlasReg/graphs/contributors">
