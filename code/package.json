@@ -1,17 +1,28 @@
 {
-  "name": "yaml-to-reg",
+  "name": "atlasreg",
   "version": "1.0.0",
-  "main": "reg.js",
+  "description": "Convert AtlasOS YAML playbook configurations into standalone Windows Registry files.",
+  "main": "atlasreg.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node atlasreg.js",
+    "generate": "node atlasreg.js",
+    "test": "node --check atlasreg.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "atlasos",
+    "windows",
+    "registry",
+    "yaml"
+  ],
+  "author": "SegoCode",
+  "license": "MIT",
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=11"
+  },
   "dependencies": {
     "colors": "^1.4.0",
-    "fs-extra": "^11.2.0",
     "js-yaml": "^4.1.0"
   }
 }
