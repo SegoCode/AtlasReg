@@ -27,15 +27,17 @@ jobs:
         run: |
           gh repo clone SegoCode/AtlasReg AtlasReg
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v5
+      - name: Set up pnpm and Node.js
+        uses: pnpm/setup@v1
         with:
-          node-version: '24'
+          version: 11.20.0
+          runtime: node@26.6.0
+          install: false
 
       - name: Install Dependencies
         run: |
           cd AtlasReg/code
-          npm ci
+          pnpm install --frozen-lockfile
 
       - name: Run atlasreg.js Script
         run: |
