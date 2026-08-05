@@ -42,12 +42,12 @@ jobs:
       - name: Run atlasreg.js Script
         run: |
           cd AtlasReg/code
-          node atlasreg.js ../../Atlas/src/playbook/Configuration/tweaks ../playbook
+          node atlasreg.js ../../Atlas/src/playbook/Configuration/tweaks ../docs/playbook
 
       - name: Commit and Push Changes
         run: |
           cd AtlasReg
-          git add playbook
+          git add docs/playbook
           git commit -m "chore: update registry files" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/SegoCode/AtlasReg.git HEAD:main
         env:
