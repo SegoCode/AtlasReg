@@ -15,17 +15,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Authenticate with GitHub CLI
-        run: |
-          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
-
       - name: Clone Atlas-OS/Atlas Repository
         run: |
-          gh repo clone Atlas-OS/Atlas Atlas
+          git clone https://github.com/Atlas-OS/Atlas.git Atlas
 
       - name: Clone SegoCode/AtlasReg Repository
         run: |
-          gh repo clone SegoCode/AtlasReg AtlasReg
+          git clone https://github.com/SegoCode/AtlasReg.git AtlasReg
 
       - name: Set up pnpm and Node.js
         uses: pnpm/setup@v1
