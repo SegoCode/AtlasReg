@@ -20,7 +20,7 @@ AtlasReg is a repo for automating the generation of Windows Registry files (`.re
 The generated registry files are available in the [`playbook`](https://github.com/SegoCode/AtlasReg/tree/main/playbook) directory.
 
 1. Open the [**Actions**](https://github.com/SegoCode/AtlasReg/actions) tab in the repository.
-2. Select **Generate registry files**.
+2. Select [**Generate registry files**](https://github.com/SegoCode/AtlasReg/actions/workflows/generate-registry-files.yml).
 3. Click **Run workflow**.
 
 The workflow downloads the latest AtlasOS playbook
